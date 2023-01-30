@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../style2022.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="container">
+<p>
+  <nav class="topnav">Content for  class "topnav" Goes Here</nav>
+<img src="../de-images/dummy-eggs-header-Paulie-1200.jpg" alt=""/></p>
+<p><img src="../de-images/FREE SHIPPING IN USA BANNER.png" alt="" width="224" height="76"/> 
+  
+</p>
+    <!-- TemplateBeginEditable name="NEW MAIN EDITABLE" -->
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>NEW MAIN EDITABLE</p>
+<!-- TemplateEndEditable -->
+	</div>
+</body>
+</html>
