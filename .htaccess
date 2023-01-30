@@ -1,0 +1,23 @@
+
+RewriteEngine on
+DirectoryIndex home.html
+
+Options -Indexes
+
+ErrorDocument 404 /custom-404.html
+RewriteCond %{HTTP_HOST} ^dummy\-eggs\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dummy\-eggs\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "https\:\/\/dummyeggs\.com" [R=301,L]
+RewriteCond %{HTTP_HOST} ^dummyegg\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dummyegg\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "https\:\/\/dummyeggs\.com" [R=301,L]
+RewriteCond %{HTTP_HOST} ^fake\-eggs\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.fake\-eggs\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "https\:\/\/dummyeggs\.com" [R=301,L]
+
